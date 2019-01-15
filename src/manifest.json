@@ -1,0 +1,31 @@
+{
+  "name": "volpy",
+  "short_name": "volpy",
+  "theme_color": "#f52841",
+  "background_color": "#f52841",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/favicon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

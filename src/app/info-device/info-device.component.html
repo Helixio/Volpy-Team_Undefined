@@ -1,0 +1,15 @@
+<div class="head">
+    MODÈLE
+</div>
+<div class="containerpApp">
+        <a  style="font-family:Raleway;"> <b>Voici les informations concernant votre smartphone </b>  </a><br><br><br>
+        <div style="text-align: center;">
+            <img src="../../assets/info.png" width="150px"/><br><br>
+        </div>
+        
+        {{ deviceInfo.userAgent | json }} 
+</div>
+
+<br><br><br>
+<div style="text-align: center;"><a class="btn" (click)="passTest()" routerLink='/vibrate' >Confirmer les informations</a></div>
+<a class='btnFooter' routerLink='/vibrate'>PASSER L'ÉTAPE</a>

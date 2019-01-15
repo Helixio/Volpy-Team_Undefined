@@ -1,0 +1,17 @@
+<div style="text-align:center">
+
+    <div class="head">HAUT-PARLEUR</div>
+   
+    <audio controls="controls">
+    <source src="assets/song.mp3" type="audio/mp3" />
+    Votre navigateur n'est pas compatible
+  </audio><br>
+  <i  style="font-family:Raleway; font-size: 14px;">
+      Lire le sons afin de tester les haut-parleur.
+  </i>
+  <br><br>
+  <div id="audiotest" style="font-family:Raleway;">
+      Le haut-parleur fonctionne t-il ? <br><br><br> <a class="btn" (click)="passTest()" routerLink='/finTest'>Oui</a> <a routerLink='/finTest' class="btn">Non</a>
+  </div>
+  
+</div><a class='btnFooter' routerLink='/finTest'>PASSER L'ÉTAPE</a>

@@ -1,0 +1,12 @@
+<div style="text-align:center">
+<div class="head">CAMÉRA AVANT</div>
+  <a  style="font-family:Raleway;"> <b>Prenez une photo avec au moins un visage pour valider ce test <i>(pensez à enlever vos lunettes et chapeau)</i></b></a><br><br>
+  <ack-webcam *ngIf="!base64"  [(ref)]   = "webcam"
+  [facingMode] = '"user"'
+  [options] = "options"></ack-webcam>
+  <button class="btn" *ngIf="!base64" (click)="genBase64()"> Prendre une photo </button>
+  <img *ngIf="base64" width="100%" id="picture" src="{{base64}}" alt="image">
+
+ 
+  </div>
+ <a class='btnFooter' routerLink='/cameraBack'>PASSER L'ÉTAPE</a>

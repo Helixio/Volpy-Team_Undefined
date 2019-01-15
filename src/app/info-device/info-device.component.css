@@ -1,0 +1,108 @@
+.head{
+    background-color: #f52841!important;
+    color: #fff!important;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: none;
+    font-family:Raleway;
+    font-size:20px;
+    font-weight:500;
+    line-height:60px;
+    height:60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 40px;
+}
+
+.containerpApp{
+    font-family:Raleway;
+    width: 90%;
+    margin: auto;
+}
+
+.btn{
+
+    padding: 16px 40px;
+    font-family: Raleway;
+    font-size: 14px;
+    background-color: #f52841!important;
+    color: #fff!important;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: none;
+    cursor: pointer;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+box-shadow:none;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+display:inline;
+float:none;
+font-family:Raleway;
+font-size:14px;
+font-weight:500;
+height:auto;
+line-height:20px;
+padding-bottom:16px;
+padding-left:40px;
+padding-right:40px;
+padding-top:16px;
+text-align:center;
+text-decoration-color:rgb(255, 255, 255);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+text-transform:uppercase;
+transition-delay:0s;
+transition-duration:0.3s;transition-property:all;
+transition-timing-function:ease;
+width:auto;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+.btnFooter{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 16px 40px;
+    font-family: Raleway;
+    font-size: 14px;
+    background-color: #fff!important;
+    color: #f52841!important;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: #f52841 solid 1px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    box-shadow:none;
+    box-sizing:border-box;
+    display:inline;
+    float:none;
+    font-family:Raleway;
+    font-size:14px;
+    font-weight:500;
+    height:auto;
+    line-height:20px;
+    padding-bottom:16px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:16px;
+    text-align:center;
+    text-decoration-color:#f52841;
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    text-size-adjust:100%;
+    text-transform:uppercase;
+    transition-delay:0s;
+    transition-duration:0.3s;transition-property:all;
+    transition-timing-function:ease;
+    width:100%;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}

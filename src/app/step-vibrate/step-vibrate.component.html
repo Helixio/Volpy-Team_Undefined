@@ -1,0 +1,16 @@
+<div style="text-align:center">
+  <div class="head"> VIBREUR </div>
+  <a  style="font-family:Raleway;"> <b>Appuyer sur le boutton pour tester le vibreur</b>  </a><br><br>
+  <div class="containerpApp">
+  <div class="container">
+      <div ng-app="VibratorDemo" ng-controller="VibrationsCtrl">
+          <button class="pulse-button" id="vibe" (click)="launchVibe()"></button>
+        </div>
+        <br>
+        <div *ngIf='boolVibe' id="validateVibe">
+            Le vibreur fonctionne t-il ? <br><br><br> <a class="btn" (click)="passTest()" routerLink='/cameraFront'>Oui</a> <a routerLink='/cameraFront' class="btn">Non</a>
+        </div>
+  </div>
+</div>
+
+</div><a class='btnFooter' routerLink='/cameraFront' >PASSER L'ÉTAPE</a>
